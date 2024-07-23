@@ -12,7 +12,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 def model_func():
-    df = pd.read_csv('cleaned_dataset.csv')
+    df = pd.read_csv('01.IMMOELIZA/03.Machine_Learning/cleaned_dataset.csv')
     pd.set_option('display.max_columns', None)
     pd.set_option('display.max_rows', None)
     df.drop(['monthlycharges', 'typeofsale', 'country', 'floodingzone'], axis=1, inplace=True)

@@ -5,6 +5,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 from xgboost import XGBRegressor
+
 from sklearn.preprocessing import StandardScaler
 
 def model_func():
@@ -31,7 +32,7 @@ def model_func():
     None
     """
     # Load dataset
-    df = pd.read_csv('cleaned_dataset.csv')
+    df = pd.read_csv('01.IMMOELIZA/03.Machine_Learning/cleaned_dataset.csv')
     pd.set_option('display.max_columns', None)
     pd.set_option('display.max_rows', None)
 
