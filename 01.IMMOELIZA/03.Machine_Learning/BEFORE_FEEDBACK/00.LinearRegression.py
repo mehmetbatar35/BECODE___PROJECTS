@@ -18,7 +18,7 @@ with open(absolute_path, "rb") as f:
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
-df.drop(['monthlycharges', 'typeofsale', 'country', 'floodingzone','locality', 'district'], axis=1, inplace=True)
+# df.drop(['monthlycharges', 'typeofsale', 'country', 'floodingzone','locality', 'district'], axis=1, inplace=True)
 # print(df.isna().sum())
 
 df['subtypeofproperty'] = df['subtypeofproperty'].apply(lambda x: 'apartment' if x in ['apartment', 'ground_floor', 'apartment_block', 'flat_studio', 'service_flat', 'kot'] else ('house' if x in ['country_cottage','pavilion', 'mansion', 'manor_house', 'castle', 'chalet','triplex', 'farmhouse', 'town_house', 'house', 'villa', 'duplex', 'penthouse'] else 'other'))

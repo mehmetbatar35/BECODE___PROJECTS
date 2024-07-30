@@ -40,12 +40,12 @@ absolute_path = r"C:\Users\mehme\becode---\BECODE___PROJECTS\01.IMMOELIZA\02.Dat
 
 with open(absolute_path, "rb") as f:
     df = pickle.load(f)
-    
+
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
-# Drop unnecessary columns
-df.drop(['monthlycharges', 'typeofsale', 'country', 'floodingzone', 'locality', 'district'], axis=1, inplace=True)
+# # Drop unnecessary columns
+# df.drop(['monthlycharges', 'typeofsale', 'country', 'floodingzone', 'locality', 'district'], axis=1, inplace=True)
 
 # Apply one-hot encoding to 'subtypeofproperty' and 'region' columns
 df['subtypeofproperty'] = df['subtypeofproperty'].apply(lambda x: 'apartment' if x in 

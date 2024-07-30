@@ -18,7 +18,7 @@ with open(absolute_path, "rb") as f:
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
-df.drop(['monthlycharges', 'typeofsale', 'country', 'floodingzone'], axis=1, inplace=True)
+# df.drop(['monthlycharges', 'typeofsale', 'country', 'floodingzone'], axis=1, inplace=True)
 
 
 df['subtypeofproperty'] = df['subtypeofproperty'].apply(lambda x: 'apartment' if x in ['apartment', 'ground_floor', 'apartment_block', 'flat_studio', 'service_flat', 'kot'] else ('house' if x in ['country_cottage','pavilion', 'mansion', 'manor_house', 'castle', 'chalet','triplex', 'farmhouse', 'town_house', 'house', 'villa', 'duplex', 'penthouse'] else 'other'))
@@ -32,7 +32,6 @@ df['province'] = df['province'].map(region_dict)
 rating_dict = {'A++': 1, 'A+': 2, 'A': 3, 'A_A+': 4, 'E_C': 5, 'G_C': 6, 'B': 7, 'B_A': 8, 'C': 9, 'D': 10, 'E': 11, 'F_C': 12, 'F': 13, 'F_D': 14, 'E_D': 15, 'F_E': 16, 'G': 17}
 df['peb'] = df['peb'].map(rating_dict)
 
-df.drop(['locality', 'district'], axis=1, inplace=True)
 
 
 # print(df.head())
