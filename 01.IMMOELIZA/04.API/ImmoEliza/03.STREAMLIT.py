@@ -4,37 +4,34 @@ import streamlit as st
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 from xgboost import XGBRegressor
+from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
 
 
+# LOAD MODELS based on USER SELECTION
+model_paths = {
+    'gbr_model': r"04.API/ImmoEliza/gbr_model.pkl",
+    'xgb_model': r"04.API/ImmoEliza/xgb_model.pkl",
+    'scaler': r"04.API/ImmoEliza/scaler.pkl"
+}
+
+
+with open(model_paths['gbr_model'], 'rb') as f:
+    gbr_model = pickle.load(f)
+with open(model_paths['xgb_model'], 'rb') as f:
+    xgb_model = pickle.load(f)
+with open(model_paths['scaler'], 'rb') as f:
+    scaler = pickle.load(f)
 
 absolute_path = r"04.API/ImmoEliza/ready_for_modeling"
-
 with open(absolute_path, 'rb') as f:
     df = pickle.load(f)
 
-
-pd.set_option('display.max_columns', None)
-
-
-
-
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-scaler = StandardScaler()
-X_train_scaled = scaler.fit_transform(X_train)
-X_test_scaled = scaler.transform(X_test)
-
-model = XGBRegressor(n_estimators = 100, random_state = 42)
-model.fit(X_train_scaled, y_train)
-
-y_pred = model.predict(X_test_scaled)
-test_score = model.score(X_test_scaled, y_test)
-mae = mean_absolute_error(y_test, y_pred)
-
-
+X = df.drop(columns = ['price'])
+y = df['price']
 
 st.title("Real Estate Price Prediction")
+
 
 col1, col2, col3 = st.columns([1, 2, 1])
 
@@ -43,13 +40,10 @@ with col2:
 
 
     def user_input_features():
-            
-
-
         province = st.selectbox('Province', ['West Flanders', 'Walloon Brabant', 'Luxembourg', 'Liège', 'Limburg', 'Hainaut', 'Flemish Brabant', 'East Flanders', 'Namur', 'Brussels', 'Antwerp'])
-        constructionyear = st.number_input('Construction Year', min_value = 1895, max_value = 20233, value= 2000)
-        if constructionyear < 1895 or constructionyear > 2033:
-            st.warning('Please choose a year between 1895 and 2033.')
+        constructionyear = st.number_input('Construction Year', min_value = 1895, max_value = 2024, value= 2000)
+        if constructionyear < 1895 or constructionyear > 2024:
+            st.warning('Please choose a year between 1895 and 2024.')
         stateofbuilding = st.slider('State of Building', 0, 5, 0)
         livingarea = st.number_input('Living Area', 12, 446, 12)
         bathroom_count = st.slider('Bathroom Count', 0, 3, 0)
@@ -77,8 +71,25 @@ with col2:
 
 input_df = user_input_features()
 
+model_chooice = st.sidebar.selectbox("Which model do you want to use to predict the price?", ['gbr_model', 'xgb_model' ])
+
 def round_to_nearest(value, multiple):
     return round(value / multiple) * multiple
+
+
+def evaluate_model(model, X, y):
+    X_scaled = scaler.transform(X)
+    y_pred = model.predict(X_scaled)
+    test_score = model.score(X_scaled, y)
+    mae = mean_absolute_error(y, y_pred)
+    return test_score, mae
+
+
+
+if model_chooice == 'gbr_model':
+    model = gbr_model
+elif model_chooice == 'xgb_model':
+    model = xgb_model
 
 if st.button("Calculate Price"):
     input_scaled = scaler.transform(input_df)
@@ -91,16 +102,11 @@ if st.button("Calculate Price"):
     st.write('Predicted Price:', rounded_price)
 
 
-
-
-
-with st.sidebar.expander('Model Evaluation', expanded= True):
-    st.sidebar.write("Test Score:", test_score)
-    st.sidebar.write("Mean Absolute Error:", mae)
-
-    mean_price = y_test.mean()
-    relative_error = mae / mean_price
-    st.sidebar.write("Relative Error:", relative_error)
+    # EVALUATE MODEL 
+    test_score, mae = evaluate_model(model, X, y)
+    with st.sidebar.expander(f"{model_chooice} Model Evaluation", expanded = True):
+        st.sidebar.write(f"Test Score: {test_score:.4f}")
+        st.sidebar.write(f"Mean Absolute Error: {mae:.2f}")
 
 
 
@@ -111,6 +117,43 @@ with st.sidebar.expander('Model Evaluation', expanded= True):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# input_scaled = scaler.transform(input_df)
+# predicted_price = model.predict(input_scaled)
+
+
+
+
+# model_path = model_paths[selected_model]
+
+# with open(model_path, 'rb') as f:
+#     model = pickle.load(f)
+
+
+
+
+# with st.sidebar.expander('Model Evaluation', expanded= True):
+#     st.sidebar.write("Test Score:", test_score)
+#     st.sidebar.write("Mean Absolute Error:", mae)
+
+#     mean_price = y_test.mean()
+#     relative_error = mae / mean_price
+#     st.sidebar.write("Relative Error:", relative_error)
 
 
 
