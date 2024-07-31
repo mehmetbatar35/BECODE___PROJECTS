@@ -1,38 +1,33 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
-
 import pickle
 
-absolute_path = r"C:\Users\mehme\becode---\BECODE___PROJECTS\01.IMMOELIZA\02.Data_Analysis\df.pkl"
+absolute_path = r"04.API/ImmoEliza/after_outlier_df.pkl"
 
 with open(absolute_path, "rb") as f:
     df = pickle.load(f)
 
-
-
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
+# Apply one-hot encoding to 'subtypeofproperty' and 'region' columns
 
-df['subtypeofproperty'] = df['subtypeofproperty'].apply(lambda x: 'apartment' if x in ['apartment', 'ground_floor', 'apartment_block', 'flat_studio', 'service_flat', 'kot'] else ('house' if x in ['country_cottage','pavilion', 'mansion', 'manor_house', 'castle', 'chalet','triplex', 'farmhouse', 'town_house', 'house', 'villa', 'duplex', 'penthouse'] else 'other'))
 one_hot_sub = pd.get_dummies(df['subtypeofproperty']).astype('int64')
 one_hot_df = pd.get_dummies(df['region']).astype('int64')
 df = pd.concat([df, one_hot_sub, one_hot_df], axis=1)
-df= df.drop(['subtypeofproperty', 'region'], axis=1)
+df.drop(['subtypeofproperty', 'region'], axis=1, inplace=True)
 
-region_dict = {'Hainaut': 1, 'Namur': 2, 'Liège': 3, 'Luxembourg': 4, 'Limburg': 5, 'East Flanders': 6, 'West Flanders': 7, 'Antwerp': 8, 'Brussels': 9, 'Walloon Brabant': 10, 'Flemish Brabant': 11}
-df['province'] = df['province'].map(region_dict)   
-rating_dict = {'A++': 1, 'A+': 2, 'A': 3, 'A_A+': 4, 'E_C': 5, 'G_C': 6, 'B': 7, 'B_A': 8, 'C': 9, 'D': 10, 'E': 11, 'F_C': 12, 'F': 13, 'F_D': 14, 'E_D': 15, 'F_E': 16, 'G': 17}
+df.groupby('province')['price'].mean()
+
+order_mapping = {'West Flanders': 1, 'Walloon Brabant': 2, 'Luxembourg': 3, 'Liège': 4, 'Limburg': 5, 'Hainaut': 6, 'Flemish Brabant': 7, 'East Flanders': 8, 'Namur': 9, 'Brussels': 10, 'Antwerp': 11}
+rating_dict = {'G': 1, 'F_E': 2, 'F_D': 3, 'F': 4, 'F_C': 5, 'E_D': 6, 'E': 7, 'D': 8, 'C': 9, 'B_A': 10, 'B': 11, 'G_C': 12, 'E_C': 13, 'A_A+': 14, 'A': 15, 'A+': 16, 'A++': 17}
+
+df['province'] = df['province'].map(order_mapping)
 df['peb'] = df['peb'].map(rating_dict)
-
-
-
 
 X = df.drop('price', axis=1)
 y = df['price']
