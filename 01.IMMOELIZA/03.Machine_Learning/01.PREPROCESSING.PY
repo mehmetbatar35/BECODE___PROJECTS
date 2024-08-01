@@ -1,7 +1,7 @@
 import pandas as pd
 import pickle
 
-absolute_path = r"04.API/ImmoEliza/after_outlier_df.pkl"
+absolute_path = r"03.Machine_Learning/after_outlier_df.pkl"
 
 with open(absolute_path, 'rb') as f:
     df = pickle.load(f)

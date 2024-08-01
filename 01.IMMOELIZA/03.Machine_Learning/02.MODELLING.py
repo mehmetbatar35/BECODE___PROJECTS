@@ -10,7 +10,7 @@ from xgboost import XGBRegressor
 
 
 
-absolute_path = r"04.API/ImmoEliza/ready_for_modeling"
+absolute_path = r"03.Machine_Learning/ready_for_modeling"
 
 with open(absolute_path, 'rb') as f:
     df = pickle.load(f)
@@ -64,10 +64,10 @@ print(f"XGBRegressor - Mean Absolute Error: {xgb_mae:.4f}")
 
 #Save the Models and Scaler
 model_paths = {
-    'lr_model': r"04.API/ImmoEliza/lr_model.pkl",
-    'gbr_model': r"04.API/ImmoEliza/gbr_model.pkl",
-    'xgb_model': r"04.API/ImmoEliza/xgb_model.pkl",
-    'scaler': r"04.API/ImmoEliza/scaler.pkl"
+    'lr_model': r"03.Machine_Learning/lr_model.pkl",
+    'gbr_model': r"03.Machine_Learning/gbr_model.pkl",
+    'xgb_model': r"03.Machine_Learning/xgb_model.pkl",
+    'scaler': r"03.Machine_Learning/scaler.pkl"
 }
 
 # SAVE Linear Regression MODEL
