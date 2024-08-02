@@ -27,5 +27,8 @@ df['peb'] = df['peb'].map(rating_dict)
 
 # print(df.head())
 
-with open("ready_for_modeling", "wb") as f:
-    pickle.dump(df, f )
+
+file_path = r"C:\Users\mehme\becode---\BECODE___PROJECTS\01.IMMOELIZA\03.Machine_Learning\ready_for_modeling.pkl"
+
+with open(file_path, "wb") as f:
+    pickle.dump(df, f)

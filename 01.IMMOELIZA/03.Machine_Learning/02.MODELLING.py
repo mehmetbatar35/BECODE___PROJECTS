@@ -10,7 +10,7 @@ from xgboost import XGBRegressor
 
 
 
-absolute_path = r"03.Machine_Learning/ready_for_modeling"
+absolute_path = r"03.Machine_Learning/ready_for_modeling.pkl"
 
 with open(absolute_path, 'rb') as f:
     df = pickle.load(f)
@@ -64,32 +64,35 @@ print(f"XGBRegressor - Mean Absolute Error: {xgb_mae:.4f}")
 
 #Save the Models and Scaler
 model_paths = {
-    'lr_model': r"03.Machine_Learning/lr_model.pkl",
-    'gbr_model': r"03.Machine_Learning/gbr_model.pkl",
-    'xgb_model': r"03.Machine_Learning/xgb_model.pkl",
-    'scaler': r"03.Machine_Learning/scaler.pkl"
+    'lr_model': r"C:\Users\mehme\becode---\BECODE___PROJECTS\01.IMMOELIZA\04.API\ImmoEliza\lr_model.pkl",
+    'gbr_model': r"C:\Users\mehme\becode---\BECODE___PROJECTS\01.IMMOELIZA\04.API\ImmoEliza\gbr_model.pkl",
+    'xgb_model': r"C:\Users\mehme\becode---\BECODE___PROJECTS\01.IMMOELIZA\04.API\ImmoEliza\xgb_model.pkl",
+    'scaler': r"C:\Users\mehme\becode---\BECODE___PROJECTS\01.IMMOELIZA\04.API\ImmoEliza\scaler.pkl"
 }
 
-# SAVE Linear Regression MODEL
+
+# Save the Logistic Regression model
 with open(model_paths['lr_model'], 'wb') as f:
     pickle.dump(lr_model, f)
 
-# SAVE GradientBoostingRegressor MODEL
+# Save the GradientBoostingRegressor model
 with open(model_paths['gbr_model'], 'wb') as f:
     pickle.dump(gbr_model, f)
 
-# SAVE XGBRegressor MODEL
+# Save the XGBRegressor model
 with open(model_paths['xgb_model'], 'wb') as f:
-    pickle.dump(xgb_model,f)
+    pickle.dump(xgb_model, f)
 
-# SAVE SCALER
+# Save the scaler
 with open(model_paths['scaler'], 'wb') as f:
     pickle.dump(scaler, f)
 
-print(f"Models and scaler saved to {model_paths['xgb_model']}, {model_paths['lr_model']}, {model_paths['scaler']}")    
+# Print the confirmation message with paths
+print(f"Models and scaler saved to {model_paths['xgb_model']}, {model_paths['lr_model']}, {model_paths['gbr_model']}, {model_paths['scaler']}")
 
 
 
+print(df.columns)
 
 
 
