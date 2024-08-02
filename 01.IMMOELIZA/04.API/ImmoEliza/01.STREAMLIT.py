@@ -28,13 +28,15 @@ with open(absolute_path, 'rb') as f:
     df = pickle.load(f)
 
 
-st.write(df.columns)
-# st.write(df.garden.value_counts())
-
 X = df.drop(columns = ['price'])
 y = df['price']
 
 st.title("Real Estate Price Prediction")
+
+
+property_type = st.radio("Which type of property do you prefer?",
+                        options = ['House', 'Apartment'])
+property_type_value = 1 if property_type == 'House' else 0
 
 
 col1, col2, col3 = st.columns(3)
@@ -47,7 +49,9 @@ with col2:
 with col3:
     Wallonie = st.checkbox("Wallonie", value = False)
 
-st.write("")
+Brussels_value = 1 if Brussels else 0
+Flanders_value = 1 if Flanders else 0
+Wallonie_value = 1 if Wallonie else 0
 
 provinces_by_region = {
     'Brussels': ['Brussels'],
@@ -110,7 +114,12 @@ def user_input_features():
         'livingarea': livingarea,
         'stateofbuilding': stateofbuilding_value,
         'peb': peb_value,
-        'garden': garden_value
+        'garden': garden_value,
+        'house' : property_type_value,
+        'apartment': 1 - property_type_value,
+        'Brussels': Brussels_value,
+        'Flanders': Flanders_value,
+        'Wallonie': Wallonie_value
     })
 
     features = pd.DataFrame(default_values, index = [0])
