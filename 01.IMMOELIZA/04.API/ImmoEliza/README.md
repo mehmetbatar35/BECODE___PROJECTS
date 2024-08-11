@@ -40,7 +40,7 @@ The application offers a variety of features and visualizations designed to help
 
 - [View App](https://01apppy-6xestct2hxguicpkfyxt3e.streamlit.app/)
 
-## How to Get Started
+### How to Get Started
 
 - **Access the App**: Simply click on the link above or enter the URL into your browser to start using the app.
 - **Explore Features**: The application provides interactive tools to visualize and analyze real estate data. Whether you're looking to explore market trends or assess property values, you'll find useful insights.
