@@ -23,7 +23,7 @@ This repository features a deployed model designed to estimate real estate value
 └── xgb_model.pkl
 ```
 
-🚀 ## Features
+ ## 🚀 Features
 
 Price Prediction: Accurately predicts prices for houses and apartments based on user input.
 User-Friendly Interface: Streamlit-based web interface allows easy navigation and interaction.
