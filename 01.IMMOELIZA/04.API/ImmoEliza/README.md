@@ -48,8 +48,6 @@ The application offers a variety of features and visualizations designed to help
 
 ## 📑 Sources
 
-### Immoweb
-
 The data for this project is sourced from [Immoweb](https://www.immoweb.be/en), a leading real estate website.
 
 
