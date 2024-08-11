@@ -2,15 +2,16 @@
 
 # Welcome to the Immobilien Eliza Web Application
 
-## About the Project
+## 📌 About the Project
 
-This project is part of the Immobilien Eliza initiative, focused on delivering comprehensive real estate data analysis tools. The app is built using Streamlit, offering a seamless and responsive experience directly in your web browser.
+This project is part of the Immobilien Eliza initiative, which focuses on real estate data analysis tools. Built using Streamlit, the app provides a seamless and interactive experience in your web browser.
 
-Feel free to explore the application and provide feedback!
+### 📝 Overview
 
-## 📝 Overview
+The application estimates real estate values based on user inputs like property size and location. Enter details into the user-friendly interface, and the model calculates and displays an estimated price.
 
-This repository features a deployed model designed to estimate real estate values. Users can enter various characteristics of their property, such as size and location, into the user-friendly interface. The model then calculates and displays an estimated price based on the inputted information.
+Feel free to explore the app and provide feedback!
+
 
 ## 📦 Repo Structure
 ```
