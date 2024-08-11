@@ -62,4 +62,4 @@ This segment of the project was completed in 5 days.
 
 ## 🔧 Maintainers
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/mehmetbatar/).
+Connect with me on [LinkedIn](https://www.linkedin.com/in/mehmetbatar/)..
