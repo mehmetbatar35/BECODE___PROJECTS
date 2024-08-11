@@ -50,10 +50,17 @@ The application offers a variety of features and visualizations designed to help
 
 The data for this project is sourced from [Immoweb](https://www.immoweb.be/en), a leading real estate website.
 
+## 📌 Personal Situation
+
+This project was developed as part of the AI Bootcamp at BeCode.org.
+
 ## ⏱️ Project Duration
 
 This segment of the project was completed in 5 days.
 
+## 🔧 Maintainers
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/mehmetbatar/).
 
 
 
