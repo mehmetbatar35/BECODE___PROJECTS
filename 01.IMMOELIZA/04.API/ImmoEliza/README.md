@@ -1,4 +1,4 @@
-# <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit Logo" width="80"/> Streamlit App
+<img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit Logo" width="50"/> Streamlit App
 
 # Welcome to the Immobilien Eliza Web Application
 
@@ -8,11 +8,11 @@ This project is part of the Immobilien Eliza initiative, focused on delivering c
 
 Feel free to explore the application and provide feedback!
 
-📝 ## Overview
+## 📝 Overview
 
 This repository features a deployed model designed to estimate real estate values. Users can enter various characteristics of their property, such as size and location, into the user-friendly interface. The model then calculates and displays an estimated price based on the inputted information.
 
-📦 ## Repo Structure
+## 📦 Repo Structure
 ```
 ├── Dockerfile
 ├── 01.STREAMLIT.py
