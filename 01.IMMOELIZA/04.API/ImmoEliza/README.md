@@ -22,3 +22,29 @@ User-Friendly Interface: Streamlit-based web interface allows easy navigation an
 Cross-Device Accessibility: Accessible from any device with an internet connection.
 Dynamic Input Handling: Autofill functionality for region, province, and city based on selected options.
 Input Validation: Ensures all mandatory fields are filled before executing the prediction.
+
+
+🛠 Usage 
+
+# My Streamlit App
+
+You can view the deployed version of this Streamlit app using the following link:
+
+- [View App](https://01apppy-6xestct2hxguicpkfyxt3e.streamlit.app/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
