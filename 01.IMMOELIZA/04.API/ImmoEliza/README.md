@@ -4,10 +4,6 @@ This repository features a deployed model designed to estimate real estate value
 
 **📦 Repo Structure**
 
-
-
-
-
 ├── Dockerfile
 ├── 01.STREAMLIT.py
 ├── requirements.txt
@@ -15,6 +11,7 @@ This repository features a deployed model designed to estimate real estate value
 ├── lr_model.pkl
 ├── scaler.pkl
 └── xgb_model.pkl
+
 
 
 
