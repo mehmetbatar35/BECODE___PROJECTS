@@ -4,7 +4,7 @@
 
 ## 📌 About the Project
 
-This project is part of the Immobilien Eliza initiative, which focuses on real estate data analysis tools. Built using Streamlit, the app provides a seamless and interactive experience in your web browser.
+This project is part of the Immobilien Eliza initiative, focusing on real estate data analysis tools. Built using Streamlit, the app provides a seamless and interactive experience directly in your web browser.
 
 ### 📝 Overview
 
@@ -12,41 +12,41 @@ The application estimates real estate values based on user inputs like property 
 
 Feel free to explore the app and provide feedback!
 
-
 ## 📦 Repo Structure
+
+
 ```
-├── Dockerfile
-├── 01.STREAMLIT.py
-├── requirements.txt
-├── gbr_model.pkl
-├── lr_model.pkl
-├── scaler.pkl
-└── xgb_model.pkl
+├── Dockerfile # Docker configuration for containerization
+├── 01.STREAMLIT.py # Main Streamlit app file
+├── requirements.txt # Project dependencies
+├── gbr_model.pkl # Gradient Boosting Regressor model
+├── lr_model.pkl # Linear Regression model
+├── scaler.pkl # Scaler for feature normalization
+└── xgb_model.pkl # XGBoost model
 ```
+
 
 ## 🚀 Features
 
 - **Price Prediction**: Accurately predicts prices for houses and apartments based on user input.
-- **User-Friendly Interface**: Streamlit-based web interface allows easy navigation and interaction.
+- **User-Friendly Interface**: Streamlit-based web interface for easy navigation.
 - **Cross-Device Accessibility**: Accessible from any device with an internet connection.
-- **Dynamic Input Handling**: Autofill functionality for region, province, and city based on selected options.
-- **Input Validation**: Ensures all mandatory fields are filled before executing the prediction.
+- **Dynamic Input Handling**: Autofill functionality for regions, provinces, and cities.
+- **Input Validation**: Ensures all mandatory fields are filled before executing predictions.
 
-
-
-## 🛠 Usage 
+## 🛠 Usage
 
 ### My Streamlit App
 
-The application offers a variety of features and visualizations designed to help you analyze real estate data effectively. You can view the deployed version of this Streamlit app using the following link:
+View the deployed version of this Streamlit app using the following link:
 
 - [View App](https://01apppy-6xestct2hxguicpkfyxt3e.streamlit.app/)
 
 ### How to Get Started
 
-- **Access the App**: Simply click on the link above or enter the URL into your browser to start using the app.
-- **Explore Features**: The application provides interactive tools to visualize and analyze real estate data. Whether you're looking to explore market trends or assess property values, you'll find useful insights.
-- **User Experience**: The interface is designed to be intuitive and user-friendly, allowing you to easily navigate through the different sections.
+- **Access the App**: Click the link above or enter the URL into your browser.
+- **Explore Features**: Use interactive tools to visualize and analyze real estate data.
+- **User Experience**: Navigate easily through the intuitive interface.
 
 ## 📑 Sources
 
@@ -63,18 +63,3 @@ This segment of the project was completed in 5 days.
 ## 🔧 Maintainers
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/mehmetbatar/).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
