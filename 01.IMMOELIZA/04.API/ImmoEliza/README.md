@@ -2,8 +2,8 @@
 
 This repository features a deployed model designed to estimate real estate values. Users can enter various characteristics of their property, such as size and location, into the user-friendly interface. The model then calculates and displays an estimated price based on the inputted information.
 
-##📦 Repo Structure
-
+📦 Repo Structure
+'''
 ├── Dockerfile
 ├── 01.STREAMLIT.py
 ├── requirements.txt
@@ -11,7 +11,7 @@ This repository features a deployed model designed to estimate real estate value
 ├── lr_model.pkl
 ├── scaler.pkl
 └── xgb_model.pkl
-
+'''
 
 
 
