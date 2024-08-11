@@ -40,7 +40,7 @@ Feel free to explore the app and provide feedback!
 
 View the deployed version of this Streamlit app using the following link:
 
-- [View App](https://01apppy-6xestct2hxguicpkfyxt3e.streamlit.app/)
+- [View App](https://mehmetbatar35-b-01-immoeliza04-apiimmoelizastreamlit-app-bntdfv.streamlit.app/)
 
 ### How to Get Started
 
