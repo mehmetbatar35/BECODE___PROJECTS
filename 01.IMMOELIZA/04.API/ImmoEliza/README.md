@@ -50,7 +50,9 @@ The application offers a variety of features and visualizations designed to help
 
 The data for this project is sourced from [Immoweb](https://www.immoweb.be/en), a leading real estate website.
 
+## ⏱️ Project Duration
 
+This segment of the project was completed in 5 days.
 
 
 
