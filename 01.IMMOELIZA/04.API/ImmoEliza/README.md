@@ -17,7 +17,7 @@ Feel free to explore the app and provide feedback!
 
 ```
 ├── Dockerfile # Docker configuration for containerization
-├── 01.STREAMLIT.py # Main Streamlit app file
+├── streamlit_app.py # Main Streamlit app file
 ├── requirements.txt # Project dependencies
 ├── gbr_model.pkl # Gradient Boosting Regressor model
 ├── lr_model.pkl # Linear Regression model
