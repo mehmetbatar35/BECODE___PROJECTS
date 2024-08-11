@@ -24,13 +24,14 @@ Feel free to explore the app and provide feedback!
 └── xgb_model.pkl
 ```
 
- ## 🚀 Features
+## 🚀 Features
 
-Price Prediction: Accurately predicts prices for houses and apartments based on user input.
-User-Friendly Interface: Streamlit-based web interface allows easy navigation and interaction.
-Cross-Device Accessibility: Accessible from any device with an internet connection.
-Dynamic Input Handling: Autofill functionality for region, province, and city based on selected options.
-Input Validation: Ensures all mandatory fields are filled before executing the prediction.
+- **Price Prediction**: Accurately predicts prices for houses and apartments based on user input.
+- **User-Friendly Interface**: Streamlit-based web interface allows easy navigation and interaction.
+- **Cross-Device Accessibility**: Accessible from any device with an internet connection.
+- **Dynamic Input Handling**: Autofill functionality for region, province, and city based on selected options.
+- **Input Validation**: Ensures all mandatory fields are filled before executing the prediction.
+
 
 
 ## 🛠 Usage 
