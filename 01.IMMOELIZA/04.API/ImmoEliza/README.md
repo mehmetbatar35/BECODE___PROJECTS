@@ -1,6 +1,6 @@
 <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit Logo" width="50"/> Streamlit App
 
-# Welcome to the Immobilien Eliza Web Application
+# Welcome to the ImmoEliza Web Application
 
 ## 📌 About the Project
 
