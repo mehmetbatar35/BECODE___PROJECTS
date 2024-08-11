@@ -1,3 +1,5 @@
+# ![Streamlit Logo](https://streamlit.io/images/brand/streamlit-mark-color.png) Streamlit App
+
 # Welcome to the Immobilien Eliza Web Application
 
 ## About the Project
