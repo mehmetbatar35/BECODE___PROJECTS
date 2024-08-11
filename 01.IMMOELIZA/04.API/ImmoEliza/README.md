@@ -1,6 +1,16 @@
 # <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit Logo" width="80"/> Streamlit App
-![Render Logo](https://render.com/assets/img/logo.svg)
-![Docker Logo](https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png)
+
+
+# <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" alt="Docker Logo" width="80"/> Docker
+
+This project uses Docker for containerization.
+
+## Render
+
+<img src="https://render.com/assets/img/logo.svg" alt="Render Logo" width="80"/> 
+
+The application is deployed on Render.
+
 
 
 
