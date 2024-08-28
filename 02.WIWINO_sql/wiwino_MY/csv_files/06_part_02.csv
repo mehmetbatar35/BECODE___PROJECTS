@@ -1,0 +1,18 @@
+country_code,country_name,average_rating,ratings_count
+ro,Roumanie,4.5,31
+hr,Croatie,4.4,234
+ar,Argentine,4.321428571428571,872
+cl,Chili,4.12,1037
+pt,Portugal,3.9322580645161294,302
+md,Moldavie,3.8714285714285714,2031
+us,États-Unis,3.6982142857142857,299
+za,Afrique du Sud,3.65625,95
+it,Italie,3.6302660753880267,580
+es,Espagne,3.3809160305343515,212
+hu,Hongrie,3.1714285714285717,154
+fr,France,3.0650485436893207,876
+au,Australie,2.8312500000000003,509
+gr,Grèce,2.3,62
+ch,Suisse,2.2,162
+de,Allemagne,1.6958333333333335,2
+il,Israël,0.0,1

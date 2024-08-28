@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 
-db_path = './db/vivino.db'
+db_path = "wiwino/db/vivino.db"
 
 conn = sqlite3.connect(db_path)
 

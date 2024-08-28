@@ -1,0 +1,6 @@
+id,name,is_natural,region_id,winery_id,ratings_average,ratings_count,url,acidity,fizziness,intensity,sweetness,tannin,user_structure_count
+1611255,Cabernet Sauvignon,0,105,14919,4.8,2941,https://www.seulementproduitsitaliens.be/spec_collezioni.php?CODICEWT=80RUSC15B,3.304091,,4.7008004,1.7583516,3.3939934,295
+66294,Special Selection Cabernet Sauvignon,0,25,1301,4.7,41236,https://www.seulementproduitsitaliens.be/spec_collezioni.php?CODICEWT=80CVSSCS97B,3.3095143,,4.7616777,1.9168729,3.2025323,1866
+66284,Cabernet Sauvignon,0,25,1301,4.6,157944,https://www.wereldwijnonline.be/caymus-cabernet-sauvignon-napa-usa-rode-141629936.html,3.2843688,,4.748084,1.9367127,3.1468155,6325
+3879,Cabernet Sauvignon (Signature),0,25,1418,4.6,13730,https://artevino.be/product/darioush-signature-cabernet-sauvignon-2010-13/,3.4052458,,4.736395,1.5901945,3.4223385,811
+2653222,CASK 23 Cabernet Sauvignon,0,25,3310,4.6,9464,https://www.wereldwijnonline.be/cask-23-cabernet-sauvignon-usa-rode-wijn.html,3.3622434,,4.665351,1.6187876,3.3346488,591
