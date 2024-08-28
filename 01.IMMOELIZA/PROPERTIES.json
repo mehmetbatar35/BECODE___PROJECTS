@@ -1,0 +1,513 @@
+[
+    {
+        "id": 20095759,
+        "cluster": null,
+        "customers": [
+            {
+                "id": 3246454,
+                "type": "AGENCY",
+                "email": "timothe@windeshausen.immo",
+                "logoUrl": "https://media.immowebstatic.be/customers/0012p00002TxsmKAAR/logo/e6229a737c9a1cae7bbb4c4bf32758da.jpg",
+                "phoneNumber": null,
+                "mobileNumber": "+32473468059",
+                "name": "Windeshausen Immobilier",
+                "website": "http://www.windeshausen-properties.com",
+                "location": {
+                    "country": "Belgium",
+                    "region": null,
+                    "province": "Brussels",
+                    "district": "Brussels",
+                    "locality": "Forest",
+                    "postalCode": "1190",
+                    "street": "Rue Andr\u00e9 Baillon 28 bte 5",
+                    "number": null,
+                    "box": null,
+                    "propertyName": null,
+                    "floor": null,
+                    "latitude": 50.808072,
+                    "longitude": 4.3180471,
+                    "distance": null,
+                    "approximated": null,
+                    "regionCode": null,
+                    "type": null,
+                    "hasSeaView": null,
+                    "pointsOfInterest": null,
+                    "placeName": null
+                },
+                "ipiNo": "512081",
+                "isOwner": true,
+                "contactHoursMobile": "anytime",
+                "contactHoursLandline": "anytime",
+                "salesRepresentative": {
+                    "name": null,
+                    "email": "jolivot.laurette@gmail.com",
+                    "landLine": null
+                },
+                "features": {
+                    "page404": true,
+                    "investorFlag": false,
+                    "relatedClassifieds": true,
+                    "leafletsCTA": false,
+                    "leadQualification": true,
+                    "recommendation": true
+                }
+            }
+        ],
+        "premiumProjectPage": {
+            "medias": null,
+            "options": null,
+            "promoter": null,
+            "tabs": null
+        },
+        "flags": {
+            "isPublicSale": false,
+            "isNewClassified": true,
+            "isNewPrice": false,
+            "isInvestmentProject": false,
+            "isNewlyBuilt": false,
+            "isNotarySale": null,
+            "isLifeAnnuitySale": false,
+            "adQuality": null,
+            "date": null,
+            "priceSqm": null,
+            "price": null,
+            "default": null,
+            "isSoldOrRented": false,
+            "isLowEnergy": null,
+            "percentSold": null,
+            "isPassiveHouse": null,
+            "isNewRealEstateProject": false,
+            "isAnInteractiveSale": null,
+            "isUnderOption": false
+        },
+        "media": {
+            "pictures": [
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/4a1a655ddd4192ca7a2b3a9ced93bf45.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/4a1a655ddd4192ca7a2b3a9ced93bf45.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/4a1a655ddd4192ca7a2b3a9ced93bf45.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/244c18282d2aa6506fbec15e74c1ff98.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/244c18282d2aa6506fbec15e74c1ff98.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/244c18282d2aa6506fbec15e74c1ff98.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/0f6a58df7d93809fb7b2015b7540e4f8.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/0f6a58df7d93809fb7b2015b7540e4f8.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/0f6a58df7d93809fb7b2015b7540e4f8.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/d4b2edeccc19aebfe214d92dd84c7b06.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/d4b2edeccc19aebfe214d92dd84c7b06.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/d4b2edeccc19aebfe214d92dd84c7b06.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/13c72d8df410053c3c6ca739b062468e.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/13c72d8df410053c3c6ca739b062468e.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/13c72d8df410053c3c6ca739b062468e.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/730aeba7448374c60ebd1ba010b59a0e.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/730aeba7448374c60ebd1ba010b59a0e.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/730aeba7448374c60ebd1ba010b59a0e.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/3315df7e40ebf2f2314279b58838a344.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/3315df7e40ebf2f2314279b58838a344.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/3315df7e40ebf2f2314279b58838a344.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/e8aeb532fecb8ed68b3eae7a16c4fd11.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/e8aeb532fecb8ed68b3eae7a16c4fd11.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/e8aeb532fecb8ed68b3eae7a16c4fd11.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/90874c654b3dcb99b1f02c3e54636123.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/90874c654b3dcb99b1f02c3e54636123.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/90874c654b3dcb99b1f02c3e54636123.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/dce84419f898242c4096e5d801a6446b.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/dce84419f898242c4096e5d801a6446b.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/dce84419f898242c4096e5d801a6446b.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/9ec5195fad89021beaba8b3928b9458e.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/9ec5195fad89021beaba8b3928b9458e.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/9ec5195fad89021beaba8b3928b9458e.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/8ba2b7074f4df1667db6f4cfbd19d075.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/8ba2b7074f4df1667db6f4cfbd19d075.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/8ba2b7074f4df1667db6f4cfbd19d075.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/7c465b4a6ab4023379cd5e4529d618c6.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/7c465b4a6ab4023379cd5e4529d618c6.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/7c465b4a6ab4023379cd5e4529d618c6.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/e0f36c23be0c2f99f094a86384eda753.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/e0f36c23be0c2f99f094a86384eda753.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/e0f36c23be0c2f99f094a86384eda753.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/6559f03f18f8da00e88d010ec77ea150.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/6559f03f18f8da00e88d010ec77ea150.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/6559f03f18f8da00e88d010ec77ea150.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/770c8e060825b4802825c8b55be98e60.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/770c8e060825b4802825c8b55be98e60.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/770c8e060825b4802825c8b55be98e60.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/58addb7d0062966fd0e40e459ec8795c.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/58addb7d0062966fd0e40e459ec8795c.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/58addb7d0062966fd0e40e459ec8795c.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/d28a6c9ac3c9f50b253dd5cf62011c36.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/d28a6c9ac3c9f50b253dd5cf62011c36.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/d28a6c9ac3c9f50b253dd5cf62011c36.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/8ab34b1e285b3649dc59ecadd9327674.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/8ab34b1e285b3649dc59ecadd9327674.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/8ab34b1e285b3649dc59ecadd9327674.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/e5d5ef76bbc111e6b2bd12098eabcc17.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/e5d5ef76bbc111e6b2bd12098eabcc17.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/e5d5ef76bbc111e6b2bd12098eabcc17.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/088eadf2efb217ca7c9737b37e5568a4.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/088eadf2efb217ca7c9737b37e5568a4.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/088eadf2efb217ca7c9737b37e5568a4.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/092219f9cbdbb24fc61d331762a57212.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/092219f9cbdbb24fc61d331762a57212.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/092219f9cbdbb24fc61d331762a57212.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/37ce6666679740835a1f2e3075f007a3.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/37ce6666679740835a1f2e3075f007a3.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/37ce6666679740835a1f2e3075f007a3.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/3f1c72df0faefdd8bd4fda0bcb1159f6.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/3f1c72df0faefdd8bd4fda0bcb1159f6.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/3f1c72df0faefdd8bd4fda0bcb1159f6.jpg",
+                    "isVertical": false
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/7bc27053285185436519bb4dc5ff1da7.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/7bc27053285185436519bb4dc5ff1da7.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/7bc27053285185436519bb4dc5ff1da7.jpg",
+                    "isVertical": true
+                },
+                {
+                    "smallUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/100x100/b8fc8db2de6bc004a871cb6abcea2cb8.jpg",
+                    "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/300x300/b8fc8db2de6bc004a871cb6abcea2cb8.jpg",
+                    "largeUrl": "https://media-resize.immowebstatic.be/classifieds/5589af0e-13ab-4820-88e1-5011f65dad5a/736x736/b8fc8db2de6bc004a871cb6abcea2cb8.jpg",
+                    "isVertical": false
+                }
+            ],
+            "virtualTourUrl": null,
+            "floorPlans": null,
+            "specifications": null,
+            "virtualExperienceUrl": null
+        },
+        "property": {
+            "type": "HOUSE",
+            "subtype": "HOUSE",
+            "title": "House transformed into 3 renovated apartments + exterior",
+            "description": "We offer you this single-family house transformed into 3 apartments, completely renovated, located in a quiet street but close to all amenities (Wiels and Van Volxem district). It is composed on the ground floor: an apartment of 90m2, 3 bedrooms and an outdoor space of 65m2, on the first floor: an apartment of 78m2, 2 bedrooms and an outdoor space of 15m2 and on the second floor: an apartment of 70m2 and 2 bedrooms. Information: Very large cellars, PVC double glazing, gas central heating, house in very good condition and renovated. For more information and visits, contact us.",
+            "name": null,
+            "isHolidayProperty": null,
+            "bedroomCount": 7,
+            "bedrooms": [],
+            "bathroomCount": null,
+            "bathrooms": [],
+            "location": {
+                "country": "Belgium",
+                "region": "Brussels",
+                "province": "Brussels",
+                "district": "Brussels",
+                "locality": "Forest",
+                "postalCode": "1190",
+                "street": "Rue Georges Leclercq - Georges Leclercqstraat",
+                "number": "133",
+                "box": null,
+                "propertyName": "Leclercq 133",
+                "floor": null,
+                "latitude": 50.8227803,
+                "longitude": 4.3241535,
+                "distance": null,
+                "approximated": null,
+                "regionCode": "BRUSSELS",
+                "type": "RESIDENTIAL",
+                "hasSeaView": null,
+                "pointsOfInterest": null,
+                "placeName": "Weils-Van Voxem"
+            },
+            "netHabitableSurface": 245,
+            "roomCount": null,
+            "monthlyCosts": null,
+            "attic": null,
+            "hasAttic": null,
+            "basement": {
+                "surface": null
+            },
+            "hasBasement": true,
+            "hasDressingRoom": false,
+            "diningRoom": null,
+            "hasDiningRoom": null,
+            "building": {
+                "annexCount": null,
+                "condition": "AS_NEW",
+                "constructionYear": null,
+                "facadeCount": 2,
+                "floorCount": 2,
+                "streetFacadeWidth": 7
+            },
+            "propertyCertificates": {
+                "builtPlanStatus": null,
+                "globalInsulationLevel": null,
+                "oilTankCertificateStatus": "NOT_SPECIFIED",
+                "primaryEnergyConsumptionLevel": 241,
+                "hasAsbestosCertificate": null
+            },
+            "hasCaretakerOrConcierge": false,
+            "hasDisabledAccess": false,
+            "hasLift": false,
+            "constructionPermit": {
+                "constructionType": "ALL_KIND",
+                "floodZoneType": null,
+                "isObtained": null,
+                "hasObligationToConstruct": null,
+                "hasPlotDivisionAuthorization": null,
+                "hasPossiblePriorityPurchaseRight": null,
+                "isBreachingUrbanPlanningRegulation": null,
+                "floodZoneIconUrl": null,
+                "totalBuildableGroundFloorSurface": 0,
+                "urbanPlanningInformation": null,
+                "pScore": null,
+                "gScore": null
+            },
+            "energy": {
+                "heatingType": "GAS",
+                "hasHeatPump": false,
+                "hasPhotovoltaicPanels": false,
+                "hasThermicPanels": false,
+                "hasCollectiveWaterHeater": false,
+                "hasDoubleGlazing": true,
+                "performance": null
+            },
+            "kitchen": null,
+            "land": {
+                "hasGasWaterElectricityConnection": true,
+                "hasPlotToRear": false,
+                "isFacingStreet": true,
+                "isFlat": false,
+                "isWooded": false,
+                "landWidth": 7,
+                "latestUseDesignation": null,
+                "rearLand": null,
+                "sewerConnection": "CONNECTED",
+                "surface": 180
+            },
+            "laundryRoom": {
+                "surface": null
+            },
+            "hasLaundryRoom": true,
+            "livingRoom": null,
+            "hasLivingRoom": true,
+            "isFirstOccupation": null,
+            "hasBalcony": null,
+            "hasBarbecue": null,
+            "hasGarden": null,
+            "gardenSurface": null,
+            "gardenOrientation": null,
+            "parkingCountIndoor": null,
+            "parkingCountOutdoor": null,
+            "parkingCountClosedBox": null,
+            "hasAirConditioning": false,
+            "hasArmoredDoor": false,
+            "hasVisiophone": false,
+            "hasSecureAccessAlarm": true,
+            "hasCableTV": true,
+            "hasDoorPhone": true,
+            "hasInternet": true,
+            "showerRoomCount": 3,
+            "showerRooms": [],
+            "specificities": {
+                "internalFixturesAndFittings": null,
+                "miscellaneousFixturesAndFittings": null,
+                "totalFloorSurface": null,
+                "accessDoorCount": null,
+                "sectionalDoorCount": null,
+                "slidingDoorCount": null,
+                "loadingBayCount": null,
+                "coveredBaysCount": null,
+                "loadingBayWithLiftingDeviceCount": null,
+                "ceilingHeight": null,
+                "maxAvailableHeight": null,
+                "minAvailableHeight": null,
+                "showroomSurface": null,
+                "hasReceptionDesk": null,
+                "shopWindowWidth": null,
+                "hasGoodwill": null,
+                "goodwillPrice": null,
+                "hasOffice": false,
+                "office": null,
+                "hasWorkspace": false,
+                "workspace": null
+            },
+            "toiletCount": 4,
+            "toilets": [],
+            "hasFitnessRoom": null,
+            "hasTennisCourt": null,
+            "hasSwimmingPool": false,
+            "hasSauna": false,
+            "hasJacuzzi": false,
+            "hasHammam": null,
+            "bedroomSurface": null,
+            "alternativeDescriptions": {
+                "fr": "Nous vous proposons cette maison unifamiliale transform\u00e9e en 3 appartements, enti\u00e8rement r\u00e9nov\u00e9, situ\u00e9e dans une rue calme mais proche de toutes commodit\u00e9s (quartier Wiels et Van Volxem). Elle se compose au rez de chauss\u00e9e: d'un appartement de 90m2, 3 chambres et un espace ext\u00e9rieur de 65m2, au premier \u00e9tage: un appartement de 78m2, 2 chambres et un espace ext\u00e9rieur de 15m2 et au deuxi\u00e8me \u00e9tage: un appartement de 70m2 et 2 chambres. Informations: Tr\u00e8s grandes caves, doubles vitrage pvc, chauffage central gaz, maison en tr\u00e8s bon \u00e9tat et r\u00e9nov\u00e9. Pour plus d'informations et visites, contactez nous.",
+                "nl": "Wij bieden u deze eengezinswoning omgevormd tot 3 appartementen aan, volledig gerenoveerd, gelegen in een rustige straat maar dichtbij alle voorzieningen (wijk Wiels en Van Volxem). Het is samengesteld op de begane grond: een appartement van 90m2, 3 slaapkamers en een buitenruimte van 65m2, op de eerste verdieping: een appartement van 78m2, 2 slaapkamers en een buitenruimte van 15m2 en op de tweede verdieping: een appartement van 70m2 en 2 slaapkamers. Informatie: Zeer grote kelders, PVC dubbele beglazing, centrale verwarming op gas, huis in zeer goede staat en gerenoveerd. Voor meer informatie en bezichtigingen kunt u contact met ons opnemen."
+            },
+            "habitableUnitCount": null,
+            "fireplaceCount": null,
+            "fireplaceExists": false,
+            "hasTerrace": true,
+            "terraceSurface": 65,
+            "terraceOrientation": null
+        },
+        "publication": {
+            "creationDate": "2024-08-12T16:55:36.179Z",
+            "expirationDate": null,
+            "publisherId": null,
+            "visualisationOption": "M",
+            "lastModificationDate": "2024-08-12T16:55:36.550Z"
+        },
+        "transaction": {
+            "type": "FOR_SALE",
+            "subtype": "BUY_REGULAR",
+            "availabilityPeriodType": null,
+            "availabilityDate": null,
+            "certificates": {
+                "carbonEmission": 48,
+                "hasElectricalInstallationComplianceCertificate": null,
+                "primaryEnergyConsumptionPerSqm": null,
+                "primaryEnergyConsumptionYearly": null,
+                "epcDescription": null,
+                "epcReference": null,
+                "epcScore": "E",
+                "epcUrl": "https://static.immoweb.be/en/pics/certif_nondispo_1.gif",
+                "renovationObligation": null
+            },
+            "rental": null,
+            "sale": {
+                "price": 590000,
+                "isSubjectToVat": false,
+                "cadastralIncome": 0,
+                "publicSale": null,
+                "pricePerSqm": null,
+                "oldPrice": null,
+                "lifeAnnuity": null,
+                "hasStartingPrice": false,
+                "isFurnished": null,
+                "homeToBuild": null,
+                "newBuildsTotalPrice": "",
+                "newBuildsVAT": "",
+                "newBuildsLandPrice": "",
+                "newBuildsLandTaxes": ""
+            },
+            "investor": {
+                "isInvestmentProperty": false,
+                "currentMonthlyRentalIncome": null,
+                "currentReturnOnInvestment": null,
+                "expectedMonthlyRentalIncome": null,
+                "expectedMonthlyRentalIncomeDescription": null,
+                "expectedReturnOnInvestment": null,
+                "habitableUnitCount": null,
+                "occupancyRate": null
+            }
+        },
+        "priceType": null,
+        "price": {
+            "type": "residential_sale",
+            "mainValue": 590000,
+            "alternativeValue": null,
+            "additionalValue": null,
+            "oldValue": null,
+            "minRangeValue": null,
+            "maxRangeValue": null,
+            "mainDisplayPrice": "\u20ac590,000",
+            "HTMLDisplayPrice": "<span aria-hidden=\"true\">\u20ac590,000</span>",
+            "alternativeDisplayPrice": "",
+            "oldDisplayPrice": null,
+            "shortDisplayPrice": "\u20ac590K",
+            "accessibilityPrice": "590000\u20ac",
+            "label": "Price",
+            "date": null,
+            "language": "en"
+        },
+        "externalReference": "Leclercq 133",
+        "isBookmarked": false,
+        "hasSectionsArray": {
+            "hasGeneralSection": true,
+            "hasInteriorSection": true,
+            "hasExteriorSection": true,
+            "hasFacilitiesSection": true,
+            "hasEnergySection": true,
+            "hasPlanningSection": true,
+            "hasFinancialSection": true,
+            "hasPublicSaleSection": false
+        },
+        "unitGroupings": [],
+        "displayFlags": {
+            "main": "new",
+            "secondary": [],
+            "percentSold": null
+        },
+        "statistics": {
+            "bookmarkCount": 0,
+            "viewCount": 0,
+            "alertPrice": null,
+            "creationDate": null,
+            "description": null,
+            "isAlertEmailSet": null,
+            "rating": null,
+            "wasOwnerContacted": null,
+            "wasPropertyVisited": null
+        }
+    }
+]
