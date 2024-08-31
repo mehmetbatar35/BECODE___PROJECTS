@@ -1,11 +1,11 @@
-wine_name,ratings_average,ratings_count,rating_per_price,price_euros
-Brunello di Montalcino Riserva,4.9,35,0.25,1970.05
-L'Extravagant de Doisy-Daëne Sauternes,4.9,32,1.23,397.5
-Pomerol,4.8,1190,0.08,6300.0
-Le Mesnil Blanc de Blancs (Cuvée S) Brut Champagne,4.8,1004,0.17,2882.5
-Pauillac (Premier Grand Cru Classé),4.8,1000,0.25,1900.0
-Grand Vin Pauillac (Premier Grand Cru Classé),4.8,920,0.28,1686.25
-Toscana,4.8,797,0.1,4910.0
-Sauternes,4.8,763,0.59,811.25
-Toscana,4.8,762,0.1,4697.5
-Toscana,4.8,651,0.09,5231.25
+wine_name,avg_rat,count_sum,rating_per_price
+Biondi-Santi Brunello di Montalcino Riserva 1955,4.9,35,0.25
+Château Doisy-Daëne L'Extravagant de Doisy-Daëne Sauternes 2001,4.9,32,1.23
+Pétrus Pomerol 1990,4.8,1190,0.08
+Salon Le Mesnil Blanc de Blancs (Cuvée S) Brut Champagne 1996,4.8,1004,0.17
+Château Lafite Rothschild Pauillac (Premier Grand Cru Classé) 2003,4.8,1000,0.25
+Château Latour Grand Vin Pauillac (Premier Grand Cru Classé) 2003,4.8,920,0.28
+Masseto Toscana 2006,4.8,797,0.1
+Château d'Yquem Sauternes 2015,4.8,763,0.59
+Masseto Toscana 2005,4.8,762,0.1
+Masseto Toscana 2001,4.8,651,0.09
