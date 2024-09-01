@@ -6,16 +6,24 @@ import base64
 import os
 
 
-image_path = 'aaa.jpg'
-image_file = open(image_path, 'rb').read()
-encoded_background_image = base64.b64encode(image_file).decode()
+# Define the path for the background image
+background_image_path = os.path.join('png', 'background.jpg')
+
+# Check if the file exists
+if not os.path.exists(background_image_path):
+    st.error(f"File not found: {background_image_path}")
+else:
+    # Read and encode the image
+    with open(background_image_path, 'rb') as image_file:
+        encoded_image = base64.b64encode(image_file.read()).decode()
+
 
 
 st.markdown(
     f"""
     <style>
     .stApp {{
-        background-image: url(data:image/jpeg;base64,{encoded_background_image});
+        background-image: url(data:image/jpeg;base64,{encoded_image});
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
