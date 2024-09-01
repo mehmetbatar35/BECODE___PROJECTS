@@ -8,7 +8,6 @@ import os
 
 
 background_image_path = r"C:\Users\mehme\becode---\BECODE___PROJECTS\02.WIWINO_sql\wiwino_MY\STREAMLIT\png\background.jpg"
-'
 
 # Open and encode the background image directly
 image_file = open(background_image_path, 'rb').read()
