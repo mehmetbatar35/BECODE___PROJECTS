@@ -6,19 +6,16 @@ import base64
 import os
 
 
-def encode_image(image_file_path):
-    with open(image_file_path, 'rb') as image_file:
-        encoded_image = base64.b64encode(image_file.read()).decode()
-        return encoded_image
+background_image_path = os.path.join('png', 'background.jpg')
+with open(background_image_path, 'rb') as image_file:
+    encoded_background_image = base64.b64encode(image_file.read()).decode()
 
-image_path = os.path.join('png', 'background.jpg')
-encoded_image = encode_image(image_path)
 
 st.markdown(
     f"""
     <style>
     .stApp {{
-        background-image: url(data:image/jpeg;base64,{encoded_image});
+        background-image: url(data:image/jpeg;base64,{encoded_background_image});
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
