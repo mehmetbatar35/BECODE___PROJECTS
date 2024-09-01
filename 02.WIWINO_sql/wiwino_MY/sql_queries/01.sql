@@ -18,7 +18,7 @@ LIMIT 10;
 
 
 
-    -- rating_per_price DESC
+
 
 
 

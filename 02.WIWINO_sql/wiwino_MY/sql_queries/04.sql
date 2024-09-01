@@ -6,23 +6,56 @@
 
 
 SELECT
-    w.id as wine_id,
-    w.name as wine_name,
-    w.url as wine_url,
-    k.name as keywords,
-    sum(kw.count) as total_user_count
+    w.id AS wine_id,
+    w.name AS wine_name,
+    k.name AS keyword,
+    SUM(kw.count) AS total_user_count
 FROM 
     wines w
 JOIN
     keywords_wine kw ON w.id = kw.wine_id
-join 
+JOIN 
     keywords k ON k.id = kw.keyword_id
 WHERE  
     k.name IN ('coffee', 'toast', 'green apple', 'cream', 'citrus')    
 GROUP BY
-    w.id, w.name, w.url, k.name    
+    w.id, w.name, k.name
 HAVING
-    count(DISTINCT k.name) = 1
-    AND sum(kw.count) >= 10
+    COUNT(DISTINCT k.name) = 1
+    AND SUM(kw.count) >= 10
 ORDER BY
     total_user_count DESC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- SELECT
+--     w.id AS wine_id,
+--     w.name AS wine_name,
+--     k.name AS keyword,
+--     SUM(kw.count) AS total_user_count
+-- FROM 
+--     wines w
+-- JOIN
+--     keywords_wine kw ON w.id = kw.wine_id
+-- JOIN 
+--     keywords k ON k.id = kw.keyword_id
+-- WHERE  
+--     k.name IN ('coffee', 'toast', 'green apple', 'cream', 'citrus')    
+-- GROUP BY
+--     w.id, w.name, k.name
+-- HAVING
+--     COUNT(DISTINCT k.name) = 1
+--     AND SUM(kw.count) >= 10
+-- ORDER BY
+--     total_user_count DESC;
