@@ -6,8 +6,8 @@ import base64
 import os
 
 
-background_image_path = os.path.join('png', 'aaa.jpg')
-image_file = open(background_image_path, 'rb').read()
+image_path = 'aaa.jpg'
+image_file = open(image_path, 'rb').read()
 encoded_background_image = base64.b64encode(image_file).decode()
 
 
