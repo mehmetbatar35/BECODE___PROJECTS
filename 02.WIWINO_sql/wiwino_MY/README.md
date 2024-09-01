@@ -2,7 +2,7 @@
 
 ## Overview
 
-**VinoMetrics** is an interactive data analysis tool designed to provide insights into wine trends and performance. Built using Streamlit, it offers a user-friendly interface to explore various wine-related questions, visualize data, and make informed decisions.
+**VinoMetrics** is an interactive Streamlit app designed to provide insights into wine trends and performance. The app features various data visualizations and analyses to help users make informed decisions regarding wine sales, marketing, and more.
 
 ## Features
 
@@ -20,12 +20,46 @@
 
 To run this Streamlit app locally, follow these steps:
 
-**Clone the Repository**
+1. **Clone the Repository**
+
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+2. ## Set Up a Virtual Environment
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
-```
-Set Up a Virtual Environment
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+
+## Usage
+
+### Navigate to the App
+
+Open your web browser and go to [http://localhost:8501](http://localhost:8501) to view the app.
+
+### Select a Question
+
+Use the sidebar to select a question or topic of interest. The app will display relevant insights and visualizations based on your selection.
+
+### View Insights
+
+The main area of the app will update to show visualizations and information related to the selected question.
+
+## Customization
+
+- **Background Image**: Update the `background_image_path` in the code to change the background image. The current path is set to `C:\Users\mehme\becode---\BECODE___PROJECTS\02.WIWINO_sql\wiwino_MY\STREAMLIT\png\background.jpg`. Ensure this path is correct or modify it to your own.
+- **Questions and Visualizations**: Modify the `questions` list and the corresponding image paths and titles in the `if-elif` statements in the code to add or change the questions and visualizations.
+
+## Contributing
+
+If you would like to contribute to the development of VinoMetrics, please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the existing style and passes all tests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, please contact [your-email@example.com].
