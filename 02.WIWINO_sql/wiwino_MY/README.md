@@ -1,117 +1,65 @@
-# Wiwino market analysis
+# VinoMetrics
 
-- Repository: `wine-market-analysis`
-- Type: `Consolidation`
-- Duration: `1 week`
-- Deadline: `29/08/2024 3:00 PM (analysis)`
-- Team: `group`
+## Overview
 
-## Mission Objectives
+**VinoMetrics** is an interactive data analysis tool designed to provide insights into wine trends and performance. Built using Streamlit, it offers a user-friendly interface to explore various wine-related questions, visualize data, and make informed decisions.
 
-Consolidate your knowledge in SQL, specifically in:
-- SELECT operations
-- JOIN operations
-- GROUP BY operations
-- AGGREGATIONS operations *(average, sum, ...)*
-- LIMIT operations
-- ... and surely many others 😁
+## Features
 
-## Learning Objectives
+- **Database Overview**: Displays information about the Wiwino database.
+- **Top Wines**: Highlights the top 10 wines to boost sales.
+- **Marketing Prioritization**: Helps prioritize countries for marketing efforts.
+- **Top Wineries**: Identifies the top 3 wineries for awards.
+- **Wine Characteristics**: Finds wines with specific characteristics such as coffee, toast, green apple, cream, and citrus.
+- **Global Grapes**: Showcases the top 3 global grape varieties and their best-rated wines.
+- **Leaderboard**: Creates a leaderboard for average wine ratings by country and vintage.
+- **User Demographics**: Analyzes wine popularity among different user demographics.
+- **Value for Money**: Identifies wines that offer the best value considering their ratings and prices.
 
-- Teamwork through ticketing and Trello
-- To be able to read and understand a SQL database diagram
-- To be able to query a SQL database 
-- To be able to write efficient SQL queries
-- To be able to create visuals from aggregated insights coming from queries
-- To be able to present a market analysis with clear numbers and graphs
+## Installation
 
-## The Mission
+To run this Streamlit app locally, follow these steps:
 
-> We are the company _Wiwino_, proudly active in the wine industry. We have been gathering data about wines from our users for years. We want to have a better understanding of the wine market by analyzing this data.
+1. **Clone the Repository**
 
-Do the analysis, summarize your output, and present the results.
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
 
-The first two days will be dedicated to individual exploration while we will next week split groups in two. Data engineer minded people will focus on gathering the data in CSV files which will be requested by the Data Analysts through tickets on a Trello.
+2. ## Set Up a Virtual Environment
 
-## Data
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-Wiwino was so kind to gather their data into a database. You can find the [SQLite](https://www.sqlite.org/index.html) database in the `db/` folder or download it from [here](https://drive.google.com/file/d/122rj3-c0mpFPL04IXeXjSp2_H66-33RS/view?usp=sharing).
 
-Below is the database diagram. The `yellow keys` symbol represents `PRIMARY KEYS` while the `blue keys` symbol represents `FOREIGN KEYS`. Each column is typed. You can see that the types are not exactly the same as Python's types. Here is a [list of SQL types](https://www.w3schools.com/sql/sql_datatypes.asp).
+## Usage
 
-![DB diagram](./assets/vivino_db_diagram_horizontal.png)
+### Navigate to the App
 
-## Must-have features
+Open your web browser and go to [http://localhost:8501](http://localhost:8501) to view the app.
 
-Crunch the numbers to arrive at a complete market analysis.
+### Select a Question
 
-You should at least answers these questions from the perspective of Wiwino:
-- We want to highlight 10 wines to increase our sales. Which ones should we choose and why?
-- We have a limited marketing budget for this year. Which country should we prioritise and why?
-- We would like to give awards to the best wineries. Come up with 3 relevant ones. Which wineries should we choose and why?
-- We detected that a big cluster of customers likes a specific combination of tastes. We identified a few keywords that match these tastes: _coffee_, _toast_, _green apple_, _cream_, and _citrus_ (note that these keywords are case sensitive ⚠️). We would like you to find all the wines that are related to these keywords. Check that **at least 10 users confirm those keywords**, to ensure the accuracy of the selection. Additionally, identify an appropriate group name for this cluster.
-- We would like to select wines that are easy to find all over the world. **Find the top 3 most common `grape`s all over the world** and **for each grape, give us the the 5 best rated wines**.
-- We would like to create a country leaderboard. Come up with a visual that shows the **average wine rating for each `country`**. Do the same for the `vintages`.
-- One of our VIP clients likes _Cabernet Sauvignon_ and would like our top 5 recommendations. Which wines would you recommend to him?
+Use the sidebar to select a question or topic of interest. The app will display relevant insights and visualizations based on your selection.
 
-Give us any other useful insights you found in the data. **Be creative!** 😉
+### View Insights
 
-If a certain question is hard or not possible to answer with the data you have been given, document what is missing. This can always happen...
+The main area of the app will update to show visualizations and information related to the selected question.
 
-**Known issues**
-- The `wineries` table doesn't link properly to the `wines` table. Match only gives four items so not useful.
-- The wineries name is (probably) the wine name.
-- The `wines_count` variable is instead in the `most_used_grapes_per_country` table and it doesn't make sense because it is the same for all (so probably a worldwide figure and not per country).
-- The `regions_count` variable from the `countries` table doesn't correspond to the actual number of regions found in the database (e.g. way less regions in France than the count variable indicates).
-- Not clear what the `user_structure_count` variable means.
-- It is not possible to find the exact grape for an individual wine. With string matching you can try to circumvent this, but the matching rate is not very high (due to many wines not referencing the name of their grape).
+## Customization
 
-## Nice-to-have features
+- **Background Image**: Update the `background_image_path` in the code to change the background image. The current path is set to `C:\Users\mehme\becode---\BECODE___PROJECTS\02.WIWINO_sql\wiwino_MY\STREAMLIT\png\background.jpg`. Ensure this path is correct or modify it to your own.
+- **Questions and Visualizations**: Modify the `questions` list and the corresponding image paths and titles in the `if-elif` statements in the code to add or change the questions and visualizations.
 
-- Optimise your queries to obtain the results as fast as possible.
-- How would you improve the data (quality), the database schema, or the typing?
-- Implement visualization best practices
-  - Data storytelling, nice design, relevancy to the questions asked, ...
+## Contributing
 
-## Constraints
+If you would like to contribute to the development of VinoMetrics, please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the existing style and passes all tests.
 
-- You are not allowed to use pandas or similar tools for the data analysis, you should use SQL and SQL only
-    - For instance, use SQL `JOIN`s to cross-reference tables, not `pd.merge()`
-    - But you can of course use a Python ORM library if you like
-- Write your queries in dedicated `.sql` files or a `queries.py` file with the queries as strings
-- For visualizing your insights, use either Python or Excel
+## License
 
-## Deliverables
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-1. Publish your source code in a GitHub repository
-2. Pimp the README file
-    - Include the main insights in it
-3. Show us your results in a nice presentation
-    - Can be with PowerPoint, a smooth Jupyter notebook & Markdown, a printout, ...
+## Contact
 
-## Steps
-
-1. Create the repository
-2. Study the project brief (Who? Why? What?)
-3. Identify the technical challenges (How?)
-4. Start exploring the data
-5. Answer the questions with clear queries
-6. Create a presentation with your findings
-7. Clean your code and finish up your repository
-
-> Again: be creative in both the analysis and delivery!!! Try to impress us.
-
-## Evaluation
-
-| Criterion      | Indicator                                              | Yes/No |
-| -------------- | ------------------------------------------------------ | ------ |
-| 1. Is complete | You have an answer for each must-have question         |        |
-|                | You push your changes to GitHub at least once a day    |        |
-|                | There is a visualization available when it makes sense |        |
-| 2. Is great    | You SQL queries are optimized                          |        |
-|                | Your code is commented/typed                           |        |
-|                | You presentation is clear and well designed            |        |
-
-## Final note
-
-![Drinking for work purposes](./assets/wine.gif)
+For any questions or feedback, please contact [batar.mehmet@outlook.com].
