@@ -22,10 +22,10 @@ To run this Streamlit app locally, follow these steps:
 
 **Clone the Repository**
 
-
+```bash
 git clone <repository-url>
 cd <repository-directory>
-
+```
 Set Up a Virtual Environment
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
