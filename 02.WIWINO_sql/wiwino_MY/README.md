@@ -22,7 +22,7 @@ To run this Streamlit app locally, follow these steps:
 
 **Clone the Repository**
 
-```bash
+
 git clone <repository-url>
 cd <repository-directory>
 
