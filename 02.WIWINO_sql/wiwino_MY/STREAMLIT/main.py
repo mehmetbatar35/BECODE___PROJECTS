@@ -14,7 +14,7 @@ if os.path.exists(background_image_path):
     encoded_image = base64.b64encode(image_file).decode()
 else:
     st.error(f"File not found: {background_image_path}")
-    encoded_image = "
+    encoded_image = ""
 
 st.markdown(
     f"""
