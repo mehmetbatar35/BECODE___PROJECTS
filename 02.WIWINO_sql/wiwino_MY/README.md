@@ -20,13 +20,13 @@
 
 To run this Streamlit app locally, follow these steps:
 
-1. **Clone the Repository**
+   **Clone the Repository**
 
    ```bash
    git clone <repository-url>
    cd <repository-directory>
 
-2. ## Set Up a Virtual Environment
+  **Set Up a Virtual Environment**
 
 ```bash
 python -m venv venv
