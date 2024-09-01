@@ -32,12 +32,23 @@ To run this Streamlit app locally, follow these steps:
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
+3. ## Install Dependencies 
+
+Ensure you have pip installed, then run:
+
+```bash
+pip install streamlit matplotlib pandas numpy
+```
+4. ## Run the Streamlit App
+```bash
+streamlit run app.py
+```
 
 ## Usage
 
 ### Navigate to the App
 
-Open your web browser and go to http://mainpy-ftbfy4zmtcvfkaycbjruu4.streamlit.app to view the app.
+Open your web browser and go to [**Vinometrics**](http://mainpy-ftbfy4zmtcvfkaycbjruu4.streamlit.app) to view the app.
 
 ### Select a Question
 
