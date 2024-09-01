@@ -7,14 +7,14 @@ import os
 
 
 
-background_image_path = 'png/background.jpg'  # Adjust path as needed
-try:
-    with open(background_image_path, 'rb') as image_file:
-        image_data = image_file.read()
-        encoded_image = base64.b64encode(image_data).decode()
-        st.markdown(f'<style>body {{background-image: url(data:image/jpeg;base64,{encoded_image});}}</style>', unsafe_allow_html=True)
-except FileNotFoundError:
-    st.error("Background image file not found. Please check the path.")
+background_image_path = r'C:\Users\mehme\becode---\BECODE___PROJECTS\02.WIWINO_sql\wiwino_MY\STREAMLIT\png\background.jpg'
+
+if os.path.exists(background_image_path):
+    image_file = open(background_image_path, 'rb').read()
+    encoded_image = base64.b64encode(image_file).decode()
+else:
+    st.error(f"File not found: {background_image_path}")
+    encoded_image = "
 
 st.markdown(
     f"""
