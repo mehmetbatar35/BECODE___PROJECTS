@@ -20,7 +20,7 @@
 
 To run this Streamlit app locally, follow these steps:
 
-1. **Clone the Repository**
+1. ## Clone the Repository
 
    ```bash
    git clone <repository-url>
@@ -58,10 +58,6 @@ Use the sidebar to select a question or topic of interest. The app will display 
 
 The main area of the app will update to show visualizations and information related to the selected question.
 
-## Customization
-
-- **Background Image**: Update the `background_image_path` in the code to change the background image. The current path is set to `C:\Users\mehme\becode---\BECODE___PROJECTS\02.WIWINO_sql\wiwino_MY\STREAMLIT\png\background.jpg`. Ensure this path is correct or modify it to your own.
-- **Questions and Visualizations**: Modify the `questions` list and the corresponding image paths and titles in the `if-elif` statements in the code to add or change the questions and visualizations.
 
 ## Contributing
 
