@@ -6,18 +6,12 @@ import base64
 import os
 
 
-# Define the path for the background image
-background_image_path = os.path.join('png', 'background.jpg')
 
-# Check if the file exists
-if not os.path.exists(background_image_path):
-    st.error(f"File not found: {background_image_path}")
-else:
-    # Read and encode the image
-    with open(background_image_path, 'rb') as image_file:
-        encoded_image = base64.b64encode(image_file.read()).decode()
+background_image_path = './png/background.jpg'
 
-
+# Open and encode the background image directly
+image_file = open(background_image_path, 'rb').read()
+encoded_image = base64.b64encode(image_file).decode()
 
 st.markdown(
     f"""
