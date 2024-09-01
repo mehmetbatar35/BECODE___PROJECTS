@@ -1,5 +1,10 @@
 # VinoMetrics
 
+<p align="center">
+  <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Streamlit Logo" width="150"/>
+  <img src="https://www.sqlite.org/images/sqlite370_banner.gif" alt="SQLite Logo" width="150"/>
+</p>
+
 ## Overview
 
 **VinoMetrics** is an interactive Streamlit app designed to provide insights into wine trends and performance. The app features various data visualizations and analyses to help users make informed decisions regarding wine sales, marketing, and more.
