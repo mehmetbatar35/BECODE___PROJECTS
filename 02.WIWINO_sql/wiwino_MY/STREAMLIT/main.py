@@ -7,8 +7,8 @@ import os
 
 
 background_image_path = os.path.join('png', 'aaa.jpg')
-with open(background_image_path, 'rb') as image_file:
-    encoded_background_image = base64.b64encode(image_file.read()).decode()
+image_file = open(background_image_path, 'rb').read()
+encoded_background_image = base64.b64encode(image_file).decode()
 
 
 st.markdown(
