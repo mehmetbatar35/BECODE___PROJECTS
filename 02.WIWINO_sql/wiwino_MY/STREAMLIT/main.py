@@ -10,7 +10,7 @@ def encode_image(image_file_path):
         encoded_image = base64.b64encode(image_file.read()).decode()
         return encoded_image
 
-image_path = './png/background.jpg'
+image_path = r'C:\Users\mehme\becode---\BECODE___PROJECTS\02.WIWINO_sql\wiwino_MY\STREAMLIT\png\background.jpg'
 encoded_image = encode_image(image_path)
 
 st.markdown(
