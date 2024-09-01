@@ -37,7 +37,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 ### Navigate to the App
 
-Open your web browser and go to [http://localhost:8501](http://localhost:8501) to view the app.
+Open your web browser and go to http://mainpy-ftbfy4zmtcvfkaycbjruu4.streamlit.app to view the app.
 
 ### Select a Question
 
@@ -62,4 +62,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or feedback, please contact [your-email@example.com].
+For any questions or feedback, please contact [batar.mehmet@outlook.com].
