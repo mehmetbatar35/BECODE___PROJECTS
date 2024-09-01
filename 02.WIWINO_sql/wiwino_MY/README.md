@@ -63,10 +63,6 @@ The main area of the app will update to show visualizations and information rela
 
 If you would like to contribute to the development of VinoMetrics, please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the existing style and passes all tests.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For any questions or feedback, please contact [batar.mehmet@outlook.com].
