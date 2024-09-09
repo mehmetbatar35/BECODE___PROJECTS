@@ -44,32 +44,5 @@ driver.quit()
 
 
 
-# dfs = []
 
-# for file_name in os.listdir(directory):
-#     if file_name.endswith(".csv"):
-#         file_path = os.path.join(directory, file_name)
-#         df = pd.read_csv(file_path)
-#         dfs.append(df)
-
-# merged_df = pd.concat(dfs, ignore_index= True)
-
-# merged_file_path = 'merged_file.csv'
-# merged_df.to_csv(merged_file_path, index = False)
-
-# print(f"All files merged successfully into  'merged_file_path'")
-
-
-
-
-# score = driver.find_element(By.CLASS_NAME, value = "col12-lg-4 col12-m-4 col12-s-2 col12-xs-0 result")
-# score = driver.find_element(By.CLASS_NAME , value = "col12-lg-4 col12-m-4 col12-s-2 col12-xs-0 result")
-# score = driver.find_element(By.CLASS_NAME , "result")
-# print(score.text)
-
-
-
-
-# href_value = driver.find_element(By.ID, 'statsBtn-1818891').get_attribute('href')
-# print(href_value)
 # driver.quit()

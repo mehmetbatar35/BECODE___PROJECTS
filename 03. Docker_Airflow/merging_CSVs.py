@@ -24,7 +24,7 @@ print(merged_df.shape)
 print(len(merged_df[merged_df.isnull().all(axis=1)]))
 
 
-merged_df.to_csv('Merged_file_common_columns.csv', index=False)
+merged_df.to_csv('csv_to_database/Merged_file_common_columns.csv', index=False)
 
 
 
